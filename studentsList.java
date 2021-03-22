@@ -10,7 +10,7 @@ public class studentsList<E> {
 	}
 
 	// -----------------------------------------
-	// Adds given integer to front of list.
+	// Adds a student name to front of list.
 	// -----------------------------------------
 	public void addToFront(E anEntry) {
 		if (front == null) {
@@ -23,7 +23,7 @@ public class studentsList<E> {
 	}
 
 	// -----------------------------------------
-	// Adds given integer to end of list.
+	// Adds given student name to end of list.
 	// -----------------------------------------
 	public void addToEnd(E anEntry) {
 		StringNode node = new StringNode(anEntry, front);
@@ -105,7 +105,7 @@ public class studentsList<E> {
 
 //*************************************************************
 // An inner class that represents a node in the integer list.
-// The public variables are accessed by the IntList class.
+// The public variables are accessed by the StringList class.
 //*************************************************************
 	private class StringNode {
 		public E val; // value stored in node
